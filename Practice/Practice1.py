@@ -1,4 +1,4 @@
-# Swapping first and element in a list
+# Swapping first and last element in a list
 
 from numpy import linspace
 
