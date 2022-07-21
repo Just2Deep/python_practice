@@ -29,9 +29,13 @@ colors = ['Red', 'Black', 'Green']
 results = random.choices(colors, weights=[18, 18, 2], k=10)
 print(results)
 
+# to shuffle the list we can use shuffle
 # generate a deck and print a hand, which does not repeat
 
 deck = list(range(1, 53))
+
+random.shuffle(deck)
+print(deck)
 
 hand = random.sample(deck, k=5)
 print(hand)
