@@ -11,3 +11,13 @@ print(constant.g)
 x = 5 - 3.14j
 
 print(x, x.imag, x.real)
+
+fruits = ["apple", "mango", "orange"]  # list
+numbers = (1, 2, 3)  # tuple
+alphabets = {'a': 'apple', 'b': 'ball', 'c': 'cat'}  # dictionary
+vowels = {'a', 'e', 'i', 'o', 'u'}  # set
+
+print(fruits)
+print(numbers)
+print(alphabets)
+print(vowels)
