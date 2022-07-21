@@ -31,6 +31,6 @@ for i in range(100):
 
     address = f'No {random.randint(00, 100)} {street} Street, {city} {state} - {pincode}'
 
-    email = first_name + '.' + last_name + '@fakeemail.com'
+    email = first_name + '.' + last_name + '@notemail.com'
 
     print(f'{first_name} {last_name}\n{phone}\n{address}\n{email}\n')
