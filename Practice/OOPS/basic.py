@@ -31,7 +31,7 @@ class Employee():
         first, last, pay = emp_str.split('-')
         return cls(first, last, pay)
 
-    @staticmethod                                                # does not take any self/class instances
+    @staticmethod                                                # does not take any self/class parameters
     def is_workday(day):
         if day.weekday() == 5 or day.weekday() == 6:
             return False
