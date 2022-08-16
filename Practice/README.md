@@ -2,10 +2,14 @@
 
 <h3>this contains solutions with different approaches for all the questions in https://www.geeksforgeeks.org/python-list-exercise/ </h3>
 
-python_practice_01.py # Swapping first and last element in a list\n
+python_practice_01.py # Swapping first and last element in a list
+
 python_practice_02.py # Python program to swap two elements in a list
+
 python_practice_03.py # Swap elements in string list
+
 python_practice_04.py # methods find the length of a list
+
 python_practice_05.py # Maximum of two numbers
 python_practice_06.py # minimum of 2 numbers
 python_practice_07.py # Check if element exists in python
