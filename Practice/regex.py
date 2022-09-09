@@ -35,3 +35,7 @@ matches = pattern.finditer(urls)
 for match in matches:
     # print(match)
     print(match.group(2) + match.group(3))
+
+matches = pattern.findall(urls)
+for match in matches:
+    print(match[1]+match[2])
