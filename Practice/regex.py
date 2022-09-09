@@ -28,8 +28,10 @@ subbed_urls = pattern.sub(r'\2\3', urls)
 
 print(subbed_urls)
 
-# matches = pattern.finditer(urls)
 
-# for match in matches:
-#     # print(match.group(0))
-#     print(match.group(2) + match.group(3))
+matches = pattern.finditer(urls)
+# print(matches)
+
+for match in matches:
+    # print(match)
+    print(match.group(2) + match.group(3))
