@@ -1,4 +1,4 @@
-# selection sort algorithm
+# selection sort algorithm, big(O) value is N^2
 
 def selection_sort(nums):
     sorted_list = []
